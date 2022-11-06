@@ -1,0 +1,200 @@
+.page-reference .bracket {
+  opacity: 0.9;
+}
+
+.page-ref {
+  color: black;
+}
+
+div#right-sidebar {
+  transition: all 0s;
+  -webkit-transition: all 0s;
+}
+
+html[data-theme="light"] .cp__header .chosen a {
+  color: white;
+  opacity: 1;
+}
+
+html[data-theme="light"] .cp__header a:hover {
+  color: black;
+  background: white;
+}
+
+mark {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.chosen mark {
+  background: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+textarea::selection {
+  background-color: black !important;
+  color: white !important;
+}
+::selection {
+  background-color: black !important;
+  color: white !important;
+}
+
+.bullet-container .bullet {
+  background-color: black !important;
+}
+
+svg {
+  color: black !important;
+}
+
+#repo-name {
+  color: black !important;
+}
+
+.dropdown-wrapper {
+  border: 1px solid black !important;
+}
+
+.search-ac {
+  border: 1px solid black !important;
+  border-radius: 0px;
+}
+.absolute-modal {
+  border-radius: 0px;
+  border: 1px solid black;
+  border-top: none;
+}
+.ui__ac-group-name {
+  color: black !important;
+}
+a.chosen {
+  background-color: black !important;
+  color: white !important;
+}
+a.chosen p {
+  color: white !important;
+}
+
+.menu-link {
+  border-radius: 0px !important;
+}
+.selected {
+  background-color: black !important;
+  color: white !important;
+}
+.selected a {
+  color: white !important;
+}
+.selected .bullet {
+  background-color: white !important;
+}
+
+.selected .bracket {
+  color: white !important;
+}
+
+.cp__right-sidebar .open {
+  border-left: 1px solid black !important;
+}
+
+.menu-link:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.content .color-level {
+  border: 1px solid black !important;
+  background: white;
+}
+
+.custom-context-menu {
+  border: 1px solid black !important;
+}
+
+blockquote {
+  border: 1px dashed black !important;
+  border-left: 2px solid black !important;
+  background-color: white;
+}
+
+/* ScrollBar */
+
+html ::-webkit-scrollbar {
+  border-left: 1px solid black;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background-color: black !important;
+}
+
+/* SideBar */
+
+#right-sidebar-container {
+  border-left: 1px solid black !important;
+}
+
+.sidebar-item {
+  box-shadow: none;
+  border-bottom: 1px solid black !important;
+}
+
+/* Editor */
+
+.white-theme,
+html[data-theme="light"] {
+  --ls-guideline-color: rgba(00, 00, 00, 0.7);
+}
+
+/* --- */
+.white-theme,
+html[data-theme="light"] {
+  --ls-link-text-color: rgba(00, 00, 00, 0.7);
+}
+
+.open-block-ref-link {
+  opacity: 1;
+  border: 1px solid var(--ls-link-text-color);
+}
+
+/* Popper */
+.tippy-popper[x-placement^="top"] [x-arrow] {
+  border: none;
+}
+
+.tippy-popper[x-placement^="top"] [x-arrow].arrow-small {
+  border: none;
+}
+
+.tippy-popper[x-placement^="bottom"] [x-arrow] {
+  border: none;
+}
+
+.tippy-popper[x-placement^="bottom"] [x-arrow].arrow-small {
+  border: none;
+}
+
+.tippy-tooltip {
+  border: 1px solid rgba(00, 00, 00, 0.7);
+}
+
+.cp__palette-main .chosen {
+  background-color: black !important;
+}
+.cp__palette-main .chosen code:first-child {
+  color: white;
+  opacity: 1;
+}
+.ui__modal-panel {
+  border: 1px solid black !important;
+}
+
+.cp__palette-main code:nth-child(2) {
+  background: rgba(00, 00, 00, 0.3);
+  color: white;
+}
+
+.cp__palette-main .chosen code:nth-child(2) {
+  background: white;
+  color: black;
+}
